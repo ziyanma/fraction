@@ -9,6 +9,7 @@ Class fraction{
 		~fraction();
 		void print();
 		void simplify();
+		std::istream& operator>>(std::istraam& is, const fraction& obj);
 		fraction operator=(fraction other);
 		fraction operator+(fraction other);
 		fraction operator*(fraction other);
