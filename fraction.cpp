@@ -24,3 +24,12 @@ void fraction::print(){
 void fraction::simplify(){
 	
 }
+
+int gcd(int a,b){
+	if (b==0){
+		return a;
+	}
+	else {
+		return gcd(b,(b % a));
+	}
+}
