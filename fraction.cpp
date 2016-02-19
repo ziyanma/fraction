@@ -22,6 +22,9 @@ void fraction::print(){
 }
 
 void fraction::simplify(){
+	int g = gcd (a,b);
+	a = a/g;
+	b = b/g;
 	
 }
 
